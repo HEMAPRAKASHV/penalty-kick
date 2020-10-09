@@ -3,93 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProGrad Premier League</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css"/>
+    <title>Document</title>
 </head>
 <body>
-    <!-- semantic web tags -->
-    <!-- Navigation part is done -->
-   <nav>
-<ul>
-    <li><img src="./assets/prograd-logo.png" alt=""></li>
-    <li>
+    <nav>
         <ul>
-            <li><a href="#teams">TEAMS</a> </li>
-            <li><a href="#fixtures"> FIXTURES</a></li>
-            <li><a href="#gameplay">GAME PLAY</a> </li>
-            <li><a href="#points">POINTS TABLE</a> </li>
+            <li class="logo-text"><img class="logo-img" src="./assers/logop.png" alt=""/></li>
+            <li>
+                <ul>
+                    <li><a href="#teams" class="nav-link">Teams</a></li>
+                    <li><a href="#fixture" class="nav-link">Fixture</a></li>
+                    <li><a href="gameplay.html" class="nav-link">Gameplay</a></li>
+                    <li><a href="point.html" class="nav-link">Point Table</a></li>
+                </ul>
+            </li>
         </ul>
-    </li>
-</ul>
-   </nav>
-   <header id="#teams">
-       <div>
-        <article>
-            <img src="./assets1/atletico madrid.png" alt=""/>
-            <h4> atletico madrid</h4>
-            <p>Wins - 6 Loses - 4</p>
-        </article>
-        <article>
-            <img src="./assets1/cd leganes.jpg" alt=""/>
-            <h4> cd leganes</h4>
-        </article>
-        <article>
-            <img src="./assets1/elche cf.jpg" alt=""/>
-            <h4> elche cf</h4>
-        </article>
-        <article>
-            <img src="./assets1/FC barcelona.png" alt=""/>
-            <h4> FC barcelona</h4>
-        </article>
-        <article>
-            <img src="./assets1/girona fc.jpg" alt=""/>
-            <h4> girona fc</h4>
-        </article>
-        <article>
-            <img src="./assets1/rcd mallorca.jpg" alt=""/>
-            <h4> rcd mallorca</h4>
-        </article>
-       </div>
-
-   </header>
-
-   <section id="#gameplay">
-    <div>
+    </nav>
+    <header id="teams">
         <div>
-            <div>
-                <img src="./assets1/real sociedad.jpg" alt="">
-                <h4> real sociedad</h4>
-
-                <span></span>
-                <div>
-                    <span>1</span>
-                    <span>0</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>0</span>
+            <article>
+                <img src="./assers/ABP.png" class="team-img"  alt=""/>
+                <h4>Athletic BP</h4>
+            </article>
+            <article>
+                <img src="./assers/CDV.png" class="team-img" alt=""/>
+                <h4>CeltaDe Vigo</h4>
+            </article>
+            <article>
+                <img src="./assers/FCB.png" class="team-img" alt=""/>
+                <h4>FC Barcelona</h4>
+            </article>
+            <article>
+                <img src="./assers/RB.png" class="team-img" alt=""/>
+                <h4>Real Betis</h4>
+            </article>
+            <article>
+                <img src="./assers/RMFC.png" class="team-img" alt=""/>
+                <h4>Real Madrid</h4>
+            </article>
+            <article>
+                <img src="./assers/SFC.png" class="team-img" alt=""/>
+                <h4>Sevilla FC</h4>
+            </article>
+            <article>
+                <img src="./assers/VCF.png" class="team-img" alt=""/>
+                <h4>Valencia CF</h4>
+            </article>
+            <article>
+                <img src="./assers/VFC.png" class="team-img" alt=""/>
+                <h4>vilarreal CF</h4>
+            </article>
+        </div>
+    </header>
+    <section id="fixture">
+        <div class="flex container-fix">
+            <a name="schedule"></a>
+            <div class="flex qualifier">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="abp-img" src="./assers/ABP.png" alt="">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="cdv-img" src="./assers/CDV.png" alt="">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card2">
+                        <img class="fcb-img" src="./assers/FCB.png" alt="">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card2">
+                        <img class="rb-img" src="./assers/RB.png" alt="">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card3">
+                        <img class="rb-img" src="./assers/RMFC.png" alt="CSK">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card3">
+                        <img class="fcb-img" src="./assers/SFC.png" alt="MI">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card4">
+                        <img class="rb-img" src="./assers/RB.png" alt="CSK">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card4">
+                        <img class="fcb-img" src="./assers/VFC.png" alt="KXI">
+                    </div>
+                </div>
+            </div>
+            <div class="flex semiFinal">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="rb-img" src="./assers/RB.png" alt="CSK">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="fcb-img" src="./assers/VFC.png" alt="KXI">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card2">
+                        <img class="rb-img" src="./assers/RB.png" alt="CSK">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card2">
+                        <img class="fcb-img" src="./assers/VFC.png" alt="KXI">
+                    </div>
+                </div>
+            </div>
+            <div class="flex Final">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="rb-img" src="./assers/RB.png" alt="CSK">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="fcb-img" src="./assers/VFC.png" alt="KXI">
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <img src="./assets1/seilla fc.jpg" alt="">
-                <h4> siella fc </h4>
-                <span></span>
-                <div>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>0</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>1</span>
-                </div>
-            </div>
-        </div>
-    </div>
-   </section>
-   <footer>
-       Happy Coding ProGrads
-   </footer>
+    <footer>Happy Coding Prograds</footer>
 </body>
 </html>
