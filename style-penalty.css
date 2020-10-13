@@ -3,12 +3,17 @@
   *{
     margin: 0;
     padding: 0;
-   }
+}
 body{
     background: yellow;
     /* font-size: 2em; */
     font-weight: 500;   
-    }
+}
+nav{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
 nav ul{
     display: flex;
     font-size: 1.5em;
@@ -32,8 +37,8 @@ nav ul li{
     color: aquamarine;
 }
 .logo-img{
-    width: 5em;
-    height: 5em;
+    width: 11em;
+    height: 9em;
 }
 .nav-link:hover{
     color: indianred;
@@ -54,10 +59,7 @@ header div{
     height: 5em;
     weight: 5em;
 }
-/* .team-im{
-    height: em;
-    weight: 5em;
-} */
+
 *article{
     align-items: center;
     text-align: center;
@@ -83,6 +85,7 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 121px 0 0 0;
 }
 
 .logo {
@@ -235,4 +238,9 @@ h3{
 .rb-img{
     width: 50%;
     margin-left: 20%;
+}
+.vfc-img{
+    width: 40%;
+    heigth: 25%;
+    margin-left: 15%;
 }
